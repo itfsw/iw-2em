@@ -16,9 +16,9 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 == Installation ==
 
-1. 你可以在后台插件管理页面中直接搜索 `iw-2em` 并安装
-2. 或者上传文件夹 `iw-2em` 至 `/wp-content/plugins/` 目录
-3. 在插件管理页面中激活 iw-2em
+1. 你可以在后台插件管理页面中直接搜索 `2em` 并安装
+2. 或者上传 `iw-2em` 至 `/wp-content/plugins/` 目录
+3. 在插件管理页面中激活 2em
 
 == Changelog ==
 
