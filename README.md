@@ -5,5 +5,5 @@
   
 ### 安装
 1. 你可以在后台插件管理页面中直接搜索 `2em` 并安装  
-2. 或者上传 `iw-2em` 至 `/wp-content/plugins/` 目录  
+2. 或者上传[iw-2em](https://github.com/itfsw/iw-2em/releases/download/v1.0.0/iw-2em.zip) 至 `/wp-content/plugins/` 目录  
 3. 在插件管理页面中激活 2em  
