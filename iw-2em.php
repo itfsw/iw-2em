@@ -1,5 +1,5 @@
 <?php
-/* Plugin Name: itfsw 2em
+/* Plugin Name: 2em
  * Description: add a button to editor, can support style 'text-index:2em' to post.
  * Author: Hewei
  * Version: 1.0.0
@@ -15,7 +15,7 @@ if (is_admin()){
 	 * @return mixed
 	 */
 	function iw_add_plugin($plugin_array) {
-		$plugin_array['iw_2em'] = plugins_url('res/js/itfsw-2em.js', __FILE__);
+		$plugin_array['iw_2em'] = plugins_url('res/js/iw-2em.js', __FILE__);
 		return $plugin_array;
 	}
 	add_filter('mce_external_plugins', 'iw_add_plugin');

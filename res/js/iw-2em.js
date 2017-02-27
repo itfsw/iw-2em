@@ -5,8 +5,8 @@
     $(document).ready(function () {
         tinymce.create('tinymce.plugins.iw_2em', {
             init : function(editor, url) {
-                editor.addButton('iw_2em', {//注意这一行有一个 youku
-                    title: '2em',//图标文字说明
+                editor.addButton('iw_2em', {
+                    title: '2em',
                     image: url + '/../images/iw-2em.png',
                     onclick : function() {
                         var node = editor.selection.getNode();
@@ -19,6 +19,6 @@
                 });
             }
         });
-        tinymce.PluginManager.add('iw_2em', tinymce.plugins.iw_2em);//注意这里有两个 youku
+        tinymce.PluginManager.add('iw_2em', tinymce.plugins.iw_2em);
     });
 })(jQuery);

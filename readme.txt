@@ -1,10 +1,14 @@
 === Plugin Name ===
 Contributors: He Wei
+Donate link: http://blog.itfsw.com/
 Tags: tinymce, 2em, style, 首行缩进
 Requires at least: 3.5.0
 Tested up to: 4.7
+Stable tag: 1.0.0
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-itfsw-2em 主要是为官方编辑器增加首行缩进支持。
+2em 主要是为官方编辑器增加首行缩进支持。
 
 == Description ==
 
@@ -12,9 +16,9 @@ itfsw-2em 主要是为官方编辑器增加首行缩进支持。
 
 == Installation ==
 
-1. 你可以在后台插件管理页面中直接搜索 `itfsw-2em` 并安装
-2. 或者上传文件夹 `itfsw-2em` 至 `/wp-content/plugins/` 目录
-3. 在插件管理页面中激活 itfsw-2em
+1. 你可以在后台插件管理页面中直接搜索 `iw-2em` 并安装
+2. 或者上传文件夹 `iw-2em` 至 `/wp-content/plugins/` 目录
+3. 在插件管理页面中激活 iw-2em
 
 == Changelog ==
 
