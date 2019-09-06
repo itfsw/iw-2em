@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: He Wei
-Donate link: https://github.com/itfsw/iw-2em
+Donate link: http://blog.itfsw.com
 Tags: tinymce, 2em, style, text-indent, 首行缩进
 Requires at least: 3.5.0
 Tested up to: 5.2

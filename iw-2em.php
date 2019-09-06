@@ -5,7 +5,7 @@ Plugin URI: https://wordpress.org/plugins/2em/
 Description: add "text-indent:2em" support to editor.
 Version: 1.1.0
 Author: hewei
-Author URI: https://github.com/itfsw/iw-2em
+Author URI: http://blog.itfsw.com
 License: GPL2+
 */
 
