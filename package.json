@@ -1,0 +1,11 @@
+{
+  "name": "iw-2em",
+  "version": "1.0.0",
+  "license": "GPLv3",
+  "devDependencies": {
+    "@wordpress/scripts": "^4.1.0"
+  },
+  "scripts": {
+    "build": "wp-scripts build"
+  }
+}

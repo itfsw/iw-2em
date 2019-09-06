@@ -27,7 +27,7 @@ License: GPL2+
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-if (is_admin()){
+if ( is_admin() ) {
 
 	/**
 	 * add plugin
@@ -36,11 +36,13 @@ if (is_admin()){
 	 *
 	 * @return mixed
 	 */
-	function iw_add_plugin($plugin_array) {
-		$plugin_array['iw_2em'] = plugins_url('res/js/iw-2em.js', __FILE__);
+	function iw_add_plugin( $plugin_array ) {
+		$plugin_array['iw_2em'] = plugins_url( 'res/js/iw-2em.js', __FILE__ );
+
 		return $plugin_array;
 	}
-	add_filter('mce_external_plugins', 'iw_add_plugin');
+
+	add_filter( 'mce_external_plugins', 'iw_add_plugin' );
 
 	/**
 	 * register buttons
@@ -49,9 +51,30 @@ if (is_admin()){
 	 *
 	 * @return mixed
 	 */
-	function iw_register_buttons($buttons) {
-		array_push($buttons, 'separator', 'iw_2em');
+	function iw_register_buttons( $buttons ) {
+		array_push( $buttons, 'separator', 'iw_2em' );
+
 		return $buttons;
 	}
-	add_filter('mce_buttons', 'iw_register_buttons');
+
+	add_filter( 'mce_buttons', 'iw_register_buttons' );
+
+
+	/**
+	 * Enqueue Gutenberg block assets for backend editor.
+	 */
+	function iw_2em_enqueue_block_editor_assets() {
+		// js
+		wp_enqueue_script( 'iw-2em-plugin-js', plugins_url( 'build/index.js', __FILE__ ), array( 'wp-block-library' ) );
+	}
+
+	add_action( 'enqueue_block_editor_assets', 'iw_2em_enqueue_block_editor_assets' );
 }
+
+/**
+ * 注册block 样式
+ */
+function iw_2em_enqueue_block_assets() {
+	wp_enqueue_style( 'iw-2em-plugin-css',  plugins_url( 'res/css/index.css', __FILE__ ));
+}
+add_action( 'enqueue_block_assets', 'iw_2em_enqueue_block_assets' );
