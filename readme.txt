@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: He Wei
 Donate link: http://blog.itfsw.com
-Tags: tinymce, 2em, style, text-indent, 首行缩进
+Tags: style, text-indent, 2em, 首行缩进, Gutenberg, tinymce
 Requires at least: 3.5.0
 Tested up to: 5.2
 Stable tag: 1.1.0
